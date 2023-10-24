@@ -5,15 +5,14 @@ import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
   templateUrl: './size.component.html',
   styleUrls: ['./size.component.css']
 })
-export class SizeComponent implements OnInit {
 
+export class SizeComponent implements OnInit {
 
   constructor() {
   }
   ngOnInit(): void {
-
+    this.size = 16;
   }
-
 
 
 

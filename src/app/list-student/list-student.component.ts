@@ -30,6 +30,10 @@ export class ListStudentComponent implements OnInit {
   getMark(mark: any) {
     this.student.mark = mark
   }
+
+  getName(name: any) {
+    this.student.name = name
+  }
 }
 
 

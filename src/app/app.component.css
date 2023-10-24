@@ -1,0 +1,11 @@
+a {
+    color: black;
+    font-size: 16px;
+    padding: 10px;
+    text-decoration: none;
+    font-style: oblique;
+}
+
+a:hover {
+    color: aqua;
+}
