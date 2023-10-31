@@ -1,24 +1,2 @@
-<a [routerLink]="['homepage']">
-    Homepage
-</a>
-<a [routerLink]="['student']">
-    Student
-</a>
-<a [routerLink]="['size']">
-    Size
-</a>
-
-<!-- <app-size [(size)]="fontSizePx">
-    <div [style.font-size.px]="fontSizePx">
-        Resize Px
-    </div>
-    <label>Font Size (px):
-        <input [(ngModel)]="fontSizePx">
-    </label>
-</app-size>
-<div>
-    <h2>De-sugared 2-ways binding</h2>
-    <app-size [(size)]="fontSizePx" (sizeChange)="fontSizePx=$event"></app-size>
-</div> -->
-
+<app-navbar></app-navbar>
 <router-outlet></router-outlet>

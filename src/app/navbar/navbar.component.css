@@ -1,0 +1,18 @@
+.spacer {
+    flex: 1 1 auto;
+}
+
+a {
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: wheat;
+}
+
+.mat-toolbar {
+    background-color: orange;
+}

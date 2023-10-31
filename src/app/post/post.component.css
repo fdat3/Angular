@@ -1,0 +1,26 @@
+.example-card {
+    max-width: 400px;
+}
+
+.layout {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.example-header-image {
+    background-image: url('https://i0.wp.com/herfootballhub.com/wp-content/uploads/2023/09/fbl-award-ballon-dor-2022-scaled.jpg?fit=2560%2C1707&ssl=1');
+    background-size: cover;
+}
+
+.like-btn {
+    background-color: aqua;
+}
+
+p {
+    padding: 20px 0;
+}
+
+img.mat-mdc-card-image.mdc-card__media {
+    height: 210px;
+}
