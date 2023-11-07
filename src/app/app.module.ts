@@ -18,6 +18,14 @@ import { PostDetailComponent } from './post-detail/post-detail.component';
 import { FooterComponent } from './footer/footer.component';
 import { MatMenuModule } from '@angular/material/menu';
 import { NestedMenuComponent } from './nested-menu/nested-menu.component';
+import { TableComponent } from './table/table.component';
+import { MatTableModule } from '@angular/material/table';
+import { SquadComponent } from './squad/squad.component';
+import { MatAccordion, MatExpansionModule } from '@angular/material/expansion';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+import { MatDatepickerModule } from '@angular/material/datepicker';
+import { MatNativeDateModule } from '@angular/material/core';
 
 
 @NgModule({
@@ -30,7 +38,9 @@ import { NestedMenuComponent } from './nested-menu/nested-menu.component';
     PostComponent,
     PostDetailComponent,
     FooterComponent,
-    NestedMenuComponent
+    NestedMenuComponent,
+    TableComponent,
+    SquadComponent,
   ],
   imports: [
     BrowserModule,
@@ -42,6 +52,14 @@ import { NestedMenuComponent } from './nested-menu/nested-menu.component';
     MatIconModule,
     MatCardModule,
     MatMenuModule,
+    MatTableModule,
+    MatButtonModule,
+    MatExpansionModule,
+    MatIconModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatDatepickerModule,
+    MatNativeDateModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

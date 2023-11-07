@@ -4,6 +4,8 @@ export interface Item {
 }
 
 export interface Club {
-    name: string;
+    name: string,
+    logo: string,
+    img: string;
 }
 

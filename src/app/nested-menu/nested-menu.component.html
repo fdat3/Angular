@@ -1,10 +1,17 @@
 <button mat-button [matMenuTriggerFor]="more">Xem thêm</button>
 <mat-menu #more="matMenu">
     <button mat-menu-item [matMenuTriggerFor]="news">Tin thị trường</button>
+    <button mat-menu-item [matMenuTriggerFor]="table">Bảng xếp hạng</button>
 </mat-menu>
 
 <mat-menu #news="matMenu">
     <button *ngFor="let club of clubs" mat-menu-item [matMenuTriggerFor]="teams">{{club.name}}</button>
+</mat-menu>
+
+<mat-menu #table="matMenu">
+    <button mat-menu-item>
+        <a href="/table">Premier League 2022/2023</a>
+    </button>
 </mat-menu>
 
 <mat-menu #teams="matMenu">
