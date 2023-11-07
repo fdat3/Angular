@@ -1,4 +1,6 @@
 import { Post } from './post/post.interface';
+import { Item } from './nested-menu/nested-menu.interface';
+import { Club } from './nested-menu/nested-menu.interface';
 
 export const POSTS: Post[] = [
     {
@@ -35,4 +37,82 @@ export const POSTS: Post[] = [
         image: 'https://imgresizer.eurosport.com/unsafe/2560x1440/filters:format(jpeg)/origin-imgresizer.eurosport.com/2023/10/16/3804579-77381508-2560-1440.jpg'
     },
 
+];
+
+export const ITEMS: Item[] = [
+    {
+        href: 'squad',
+        title: 'Đội hình'
+    },
+    {
+        href: 'team-news',
+        title: 'Danh sách đăng kí thi đấu'
+    },
+    {
+        href: 'gallery',
+        title: 'Ảnh đội'
+    },
+];
+
+export const CLUBS: Club[] = [
+    {
+        name: 'Manchester City'
+    },
+    {
+        name: 'Manchester United'
+    },
+    {
+        name: 'Newcastle United'
+    },
+    {
+        name: 'Westham United'
+    },
+    {
+        name: 'Sheffield United'
+    },
+    {
+        name: 'Luton Town'
+    },
+    {
+        name: 'Burnley'
+    },
+    {
+        name: 'Tottenham Hotspurs'
+    },
+    {
+        name: 'Everton'
+    },
+    {
+        name: 'Chelsea'
+    },
+    {
+        name: 'Arsenal'
+    },
+    {
+        name: 'Liverpool'
+    },
+    {
+        name: 'Crystal Palace'
+    },
+    {
+        name: 'Aston villa'
+    },
+    {
+        name: 'Nottingham Forest'
+    },
+    {
+        name: 'Wolves'
+    },
+    {
+        name: 'Fulham'
+    },
+    {
+        name: 'Bounermouth'
+    },
+    {
+        name: 'Brentford'
+    },
+    {
+        name: 'Brighton Albion'
+    }
 ];

@@ -14,6 +14,10 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatCardModule } from '@angular/material/card';
 import { NavbarComponent } from './navbar/navbar.component';
 import { PostComponent } from './post/post.component';
+import { PostDetailComponent } from './post-detail/post-detail.component';
+import { FooterComponent } from './footer/footer.component';
+import { MatMenuModule } from '@angular/material/menu';
+import { NestedMenuComponent } from './nested-menu/nested-menu.component';
 
 
 @NgModule({
@@ -23,7 +27,10 @@ import { PostComponent } from './post/post.component';
     SizeComponent,
     HomepageComponent,
     NavbarComponent,
-    PostComponent
+    PostComponent,
+    PostDetailComponent,
+    FooterComponent,
+    NestedMenuComponent
   ],
   imports: [
     BrowserModule,
@@ -33,7 +40,8 @@ import { PostComponent } from './post/post.component';
     MatToolbarModule,
     MatButtonModule,
     MatIconModule,
-    MatCardModule
+    MatCardModule,
+    MatMenuModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
