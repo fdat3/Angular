@@ -8,12 +8,13 @@ import { PostDetailComponent } from './post-detail/post-detail.component';
 import { TableComponent } from './table/table.component';
 import { SquadComponent } from './squad/squad.component';
 
+
 const routes: Routes = [
   { path: 'student', component: ListStudentComponent },
   { path: 'size', component: SizeComponent },
   { path: 'homepage', component: HomepageComponent },
   { path: 'post', component: PostComponent },
-  { path: 'post-detail', component: PostDetailComponent },
+  { path: 'post-detail/:id', component: PostDetailComponent },
   { path: 'table', component: TableComponent },
   { path: 'squad', component: SquadComponent },
 ];

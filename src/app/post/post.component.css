@@ -3,8 +3,9 @@
 }
 
 .layout {
-    padding: 20px 0;
+    padding: 10px 20px;
     display: flex;
+    gap: 15px;
     justify-content: space-around;
 }
 

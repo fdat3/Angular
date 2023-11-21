@@ -38,6 +38,7 @@
         img {
             max-width: 100%;
             height: auto;
+            border: 5px;
         }
 
         a {
@@ -48,14 +49,12 @@
 
 <body>
     <header>
-        <h1>Trang HTML Đẹp</h1>
+        <owl-carousel-o [options]="customOptions">
+            <ng-template carouselSlide *ngFor="let post of posts">
+                <img src="{{post.image}}">
+            </ng-template>
+        </owl-carousel-o>
     </header>
-    <main>
-        <h2>Chào mừng bạn đến với trang web của chúng tôi!</h2>
-        <p>Đây là một ví dụ về trang HTML đẹp và tùy chỉnh. Bạn có thể thêm nội dung của bạn ở đây.</p>
-        <img src="https://via.placeholder.com/400x200" alt="Hình ảnh minh họa">
-        <p>Xem thêm thông tin <a href="#">tại đây</a>.</p>
-    </main>
 </body>
 
 </html>
