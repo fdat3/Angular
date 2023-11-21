@@ -3,16 +3,48 @@
 }
 
 a {
-    color: white;
-    font-size: 16px;
+    color: #beb6d2;
+    font-size: 12px;
     padding: 10px;
+    font-weight: 700;
+    font-family: sans-serif;
     text-decoration: none;
 }
 
 a:hover {
-    color: wheat;
+    color: #ee1e4c;
+    text-decoration: underline;
 }
 
 .mat-toolbar {
-    background-color: orange;
+    background-color: #1c1726;
+}
+
+.button-windows {
+    align-items: center;
+    background-color: #ee1e4c;
+    display: flex;
+    font-weight: 700;
+    grid-area: auto;
+    justify-content: center;
+    letter-spacing: 0.3px;
+    line-height: 14.4px;
+    padding: 10px 30px;
+    text-align: left;
+    color: black;
+}
+
+.button-windows:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.div-cont {
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+}
+
+.small-logo {
+    padding: 5px;
 }

@@ -21,15 +21,15 @@ export class HomepageComponent implements OnInit {
 
   customOptions: OwlOptions = {
     loop: true,
-    items: 5,
+    items: 1,
     margin: 10,
     merge: true,
     mouseDrag: true,
     touchDrag: true,
     pullDrag: true,
-    dots: true,
+    dots: false,
     navSpeed: 700,
-    navText: ['>', '<'],
+    navText: [""],
     autoplay: true,
     autoplayTimeout: 5000,
     autoplayHoverPause: true,

@@ -1,0 +1,42 @@
+.fix-img-size {
+    width: auto;
+}
+
+.content {
+    display: flex;
+    width: auto;
+    align-items: center;
+}
+
+.small-img {
+    width: auto;
+    height: 40px;
+    left: 0;
+}
+
+.content-left {
+    display: flex;
+    width: 300px;
+    text-align: left;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.direction {
+    color: #beb6b2;
+    font-weight: 700;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+p {
+    color: #8c7bd0;
+    font-weight: 700;
+    padding: 10px 0 0 0;
+}
+
+
+img.small-img {
+    width: auto;
+    padding: 20px 0;
+}

@@ -1,19 +1,43 @@
 <mat-toolbar>
     <mat-toolbar-row>
+        <img
+            src="https://cdn-production-opera-website.operacdn.com/staticfiles/assets/images/logo/logo-o.a069885fbe7c.svg" />
         <a [routerLink]="['homepage']">
-            Homepage
+            Các trình duyệt
         </a>
         <a [routerLink]="['student']">
-            Student
-        </a>
-        <a [routerLink]="['size']">
-            Size
-        </a>
-        <a [routerLink]="['post']">
-            Post
+            Tính năng
         </a>
         <a>
-            <app-nested-menu></app-nested-menu>
+            |
         </a>
+        <a [routerLink]="['size']">
+            Sản phẩm
+        </a>
+        <a [routerLink]="['post']">
+            Trò chơi
+        </a>
+        <a [routerLink]="['post']">
+            Tải xuống
+        </a>
+        <a>
+            |
+        </a>
+        <a [routerLink]="['post']">
+            Giới thiệu
+        </a>
+        <div class="div-cont">
+            <a [routerLink]="['post']">
+                Trợ giúp
+            </a>
+            <a class="button-windows">
+                <img class="small-logo" width="15px" height="15px"
+                    src="https://cdn-production-opera-website.operacdn.com/staticfiles/67e772f5c7c0ff691b84.d5b84517520e.svg" />
+                Tải xuống Opera
+            </a>
+        </div>
+        <!-- <a>
+            <app-nested-menu></app-nested-menu>
+        </a> -->
     </mat-toolbar-row>
 </mat-toolbar>

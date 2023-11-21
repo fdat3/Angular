@@ -27,6 +27,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatNativeDateModule } from '@angular/material/core';
 import { CarouselModule } from 'ngx-owl-carousel-o';
+import { OperaComponent } from './opera/opera.component';
 
 @NgModule({
   declarations: [
@@ -41,6 +42,7 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
     NestedMenuComponent,
     TableComponent,
     SquadComponent,
+    OperaComponent,
   ],
   imports: [
     BrowserModule,

@@ -21,7 +21,7 @@
             ],
             "tsConfig": "tsconfig.app.json",
             "assets": [
-              "src/favicon.ico",
+              "src/opera_gx_browser_logo_icon_152976.ico",
               "src/assets"
             ],
             "styles": [

@@ -15,7 +15,7 @@
         header {
             background-color: #333;
             color: #fff;
-            padding: 20px;
+            padding: 50px;
             text-align: center;
         }
 
@@ -36,7 +36,7 @@
         }
 
         img {
-            max-width: 100%;
+            width: 100px;
             height: auto;
             border: 5px;
         }
@@ -49,11 +49,26 @@
 
 <body>
     <header>
-        <owl-carousel-o [options]="customOptions">
-            <ng-template carouselSlide *ngFor="let post of posts">
-                <img src="{{post.image}}">
-            </ng-template>
-        </owl-carousel-o>
+        <div class="fix-img-size">
+            <owl-carousel-o [options]="customOptions">
+                <ng-template carouselSlide *ngFor="let post of posts">
+                    <div class="content">
+                        <div class="content-left">
+                            <div class="fix-logo">
+                                <img class="small-img" src="{{post.subTitle}}" alt="">
+                                <a class="direction" routerLink="/post-detail/{{post.id}}">
+                                    {{post.title}}
+                                </a>
+                            </div>
+                            <p>{{post.content}}</p>
+                        </div>
+                        <div class="content-right">
+                            <img src="{{post.image}}">
+                        </div>
+                    </div>
+                </ng-template>
+            </owl-carousel-o>
+        </div>
     </header>
 </body>
 

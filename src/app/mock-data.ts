@@ -4,55 +4,117 @@ import { Club } from './nested-menu/nested-menu.interface';
 import { PeriodicElement } from './table/table.interface';
 
 export const POSTS: Post[] = [
+    // {
+    //     id: 1,
+    //     title: 'Erling Haaland',
+    //     content: `Bernardo Silva was once again City’s man for the big occasion across the 2022/23 campaign.
+    //     MEN'S TEAM
+    //     Understated excellence: Nathan Aké 2022/23 Season Review
+    //     Throughout his previous six years at the Etihad Stadium, the versatile Portuguese playmaker had amassed
+    //     11 major honours and delivered key goals and assists in Manchester derbies, Premier League showdowns and
+    //     seismic Champions League clashes.`,
+    //     subTitle: 'Nominate',
+    //     image: 'https://imgresizer.eurosport.com/unsafe/2560x1440/filters:format(jpeg)/origin-imgresizer.eurosport.com/2023/10/30/3815791-77567748-2560-1440.jpg'
+    // },
+    // {
+    //     id: 2,
+    //     title: 'Bernardo Silva',
+    //     content: `Bernardo Silva was once again City’s man for the big occasion across the 2022/23 campaign.
+    //     MEN'S TEAM
+    //     Understated excellence: Nathan Aké 2022/23 Season Review
+    //     Throughout his previous six years at the Etihad Stadium, the versatile Portuguese playmaker had amassed
+    //     11 major honours and delivered key goals and assists in Manchester derbies, Premier League showdowns and
+    //     seismic Champions League clashes.`,
+    //     subTitle: 'Nominate',
+    //     image: 'https://i2-prod.manchestereveningnews.co.uk/incoming/article27094541.ece/ALTERNATES/s615/0_GettyImages-1491062990.jpg'
+    // },
+    // {
+    //     id: 3,
+    //     title: 'Lionel Messi',
+    //     content: `Bernardo Silva was once again City’s man for the big occasion across the 2022/23 campaign.
+    //     MEN'S TEAM
+    //     Understated excellence: Nathan Aké 2022/23 Season Review
+    //     Throughout his previous six years at the Etihad Stadium, the versatile Portuguese playmaker had amassed
+    //     11 major honours and delivered key goals and assists in Manchester derbies, Premier League showdowns and
+    //     seismic Champions League clashes.`,
+    //     subTitle: 'Nominate',
+    //     image: 'https://imgresizer.eurosport.com/unsafe/2560x1440/filters:format(jpeg)/origin-imgresizer.eurosport.com/2023/10/16/3804579-77381508-2560-1440.jpg'
+    // },
+    // {
+    //     id: 4,
+    //     title: 'Kevin de Bruyne',
+    //     content: `Bernardo Silva was once again City’s man for the big occasion across the 2022/23 campaign.
+    //     MEN'S TEAM
+    //     Understated excellence: Nathan Aké 2022/23 Season Review
+    //     Throughout his previous six years at the Etihad Stadium, the versatile Portuguese playmaker had amassed
+    //     11 major honours and delivered key goals and assists in Manchester derbies, Premier League showdowns and
+    //     seismic Champions League clashes.`,
+    //     subTitle: 'Nominate',
+    //     image: 'https://vcdn-thethao.vnecdn.net/2023/08/15/4857-jpeg-5127-1692115552.jpg'
+    // },
     {
         id: 1,
-        title: 'Erling Haaland',
-        content: `Bernardo Silva was once again City’s man for the big occasion across the 2022/23 campaign.
-        MEN'S TEAM
-        Understated excellence: Nathan Aké 2022/23 Season Review
-        Throughout his previous six years at the Etihad Stadium, the versatile Portuguese playmaker had amassed
-        11 major honours and delivered key goals and assists in Manchester derbies, Premier League showdowns and
-        seismic Champions League clashes.`,
-        subTitle: 'Nominate',
-        image: 'https://imgresizer.eurosport.com/unsafe/2560x1440/filters:format(jpeg)/origin-imgresizer.eurosport.com/2023/10/30/3815791-77567748-2560-1440.jpg'
+        title: 'Light and Dark modes',
+        content: `Brighten up your day with light mode, now available in the Opera GX mobile and desktop browsers. Browse the light or dark side and switch between them as needed.`,
+        subTitle: 'https://cdn-production-opera-website.operacdn.com/staticfiles/assets/images/sections/2021/gx-features-slider/gx-light-mode.ae3068ee8c01.svg',
+        image: 'https://cdn-production-opera-website.operacdn.com/staticfiles/assets/images/sections/2021/gx-features-slider/gx__feature--light-mode.01aad9997fb5.png'
     },
     {
         id: 2,
-        title: 'Bernardo Silva',
-        content: `Bernardo Silva was once again City’s man for the big occasion across the 2022/23 campaign.
-        MEN'S TEAM
-        Understated excellence: Nathan Aké 2022/23 Season Review
-        Throughout his previous six years at the Etihad Stadium, the versatile Portuguese playmaker had amassed
-        11 major honours and delivered key goals and assists in Manchester derbies, Premier League showdowns and
-        seismic Champions League clashes.`,
-        subTitle: 'Nominate',
-        image: 'https://i2-prod.manchestereveningnews.co.uk/incoming/article27094541.ece/ALTERNATES/s615/0_GettyImages-1491062990.jpg'
+        title: 'GX Corner',
+        content: `Get free games, the best deals, plus a game-release calendar and gaming news all in one place. GX Corner in the mobile browser also delivers free mobile games and the best game suggestions.`,
+        subTitle: 'https://cdn-production-opera-website.operacdn.com/staticfiles/assets/images/sections/2021/gx-features-slider/gx-corner.be1333483846.svg',
+        image: 'https://cdn-production-opera-website.operacdn.com/staticfiles/assets/images/sections/2021/gx-features-slider/gx__feature--gx-corner.b44c9289e362.png'
     },
     {
         id: 3,
-        title: 'Lionel Messi',
-        content: `Bernardo Silva was once again City’s man for the big occasion across the 2022/23 campaign.
-        MEN'S TEAM
-        Understated excellence: Nathan Aké 2022/23 Season Review
-        Throughout his previous six years at the Etihad Stadium, the versatile Portuguese playmaker had amassed
-        11 major honours and delivered key goals and assists in Manchester derbies, Premier League showdowns and
-        seismic Champions League clashes.`,
-        subTitle: 'Nominate',
-        image: 'https://imgresizer.eurosport.com/unsafe/2560x1440/filters:format(jpeg)/origin-imgresizer.eurosport.com/2023/10/16/3804579-77381508-2560-1440.jpg'
+        title: 'Twitch',
+        content: `Never miss a live stream. With Twitch right in your sidebar, you can easily see the channels you follow, who's online, and choose to receive notifications whenever someone you follow goes live.`,
+        subTitle: 'https://cdn-production-opera-website.operacdn.com/staticfiles/assets/images/sections/2021/gx-features-slider/gx-twitch.8902d1ec9cef.svg',
+        image: 'https://cdn-production-opera-website.operacdn.com/staticfiles/assets/images/sections/2021/gx-features-slider/gx__feature--twitch.5f4495877f47.png'
     },
     {
         id: 4,
-        title: 'Kevin de Bruyne',
-        content: `Bernardo Silva was once again City’s man for the big occasion across the 2022/23 campaign.
-        MEN'S TEAM
-        Understated excellence: Nathan Aké 2022/23 Season Review
-        Throughout his previous six years at the Etihad Stadium, the versatile Portuguese playmaker had amassed
-        11 major honours and delivered key goals and assists in Manchester derbies, Premier League showdowns and
-        seismic Champions League clashes.`,
-        subTitle: 'Nominate',
-        image: 'https://vcdn-thethao.vnecdn.net/2023/08/15/4857-jpeg-5127-1692115552.jpg'
+        title: 'Discord',
+        content: `Talk with your teams, friends and communities with Discord in your sidebar. Join us on Discord to talk about gaming, give feedback on GX, and have fun with the Opera GX community.`,
+        subTitle: 'https://cdn-production-opera-website.operacdn.com/staticfiles/assets/images/sections/2021/gx-features-slider/gx-discord.513c7c78f5c8.svg',
+        image: 'https://cdn-production-opera-website.operacdn.com/staticfiles/assets/images/sections/2021/gx-features-slider/gx__feature--twitch.5f4495877f47.png'
     },
-
+    {
+        id: 5,
+        title: 'Player',
+        content: `A world of music and podcasts at your fingertips. Connect to all your music services in one place, and switch between them easily.`,
+        subTitle: 'https://cdn-production-opera-website.operacdn.com/staticfiles/assets/images/sections/2021/gx-features-slider/gx-player.416a8e402db6.svg',
+        image: 'https://cdn-production-opera-website.operacdn.com/staticfiles/assets/images/sections/2021/gx-features-slider/gx__feature--player.694659842717.png'
+    },
+    {
+        id: 6,
+        title: 'Messenger',
+        content: `Chat and browse at the same time with Facebook Messenger, Telegram, Vkontakte, TikTok and WhatsApp integrated right into the sidebar.`,
+        subTitle: 'https://cdn-production-opera-website.operacdn.com/staticfiles/assets/images/sections/2021/gx-features-slider/gx-messengers.9bd35388afd6.svg',
+        image: 'https://cdn-production-opera-website.operacdn.com/staticfiles/assets/images/sections/2021/gx-features-slider/gx__feature--messengers.e491d059f927.png'
+    },
+    {
+        id: 7,
+        title: 'Pinboards',
+        content: `Save and collect web content easily, share it visually. Collect pictures, links, music, files and notes to create builds, compare hardware deals, or plan the ultimate gaming den - in easily shareable, eye-pleasing boards.`,
+        subTitle: 'https://cdn-production-opera-website.operacdn.com/staticfiles/assets/images/sections/2021/gx-features-slider/gx-pinboards.7e83626e788a.svg',
+        image: 'https://cdn-production-opera-website.operacdn.com/staticfiles/assets/images/sections/2021/gx-features-slider/gx__feature--pinboards.aaecb2a9fc24.png'
+    },
+    {
+        id: 8,
+        title: 'Flow',
+        content: `Just scan a QR code to connect your computer and mobile browsers with Flow. Send links, videos, files and notes to yourself in a single click, and access them instantly on all your devices.`,
+        subTitle: 'https://cdn-production-opera-website.operacdn.com/staticfiles/assets/images/sections/2021/gx-features-slider/gx-flow.736ea0e793e4.svg',
+        image: 'https://cdn-production-opera-website.operacdn.com/staticfiles/assets/images/sections/2021/gx-features-slider/gx__feature--flow.3dafb84d8d14.png'
+    },
+    {
+        id: 9,
+        title: 'Fast Navigation',
+        content: `Choose between the Fast Action Button (FAB) and standard navigation in your Opera GX mobile browser. The FAB is always in thumb’s reach and provides haptic feedback - perfect when you’re on the move.`,
+        subTitle: 'https://cdn-production-opera-website.operacdn.com/staticfiles/assets/images/sections/2021/gx-features-slider/gx-fast-navigation.53111f7a4633.svg',
+        image: 'https://cdn-production-opera-website.operacdn.com/staticfiles/assets/images/sections/2021/gx-features-slider/gx__feature--fast-navigation.cd994c62ac97.png'
+    }
 ];
 
 export const ITEMS: Item[] = [

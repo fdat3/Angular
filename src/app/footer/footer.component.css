@@ -1,8 +1,142 @@
-span {
+.footer {
+    padding: 100px 93px;
+    font-family: sans-serif;
+    background-color: #1c1726;
+}
+
+.footer-top {
     display: flex;
+}
+
+.footer-top-left {
+    display: flex;
+    width: 70%;
+}
+
+.footer-items {
+    width: 25%;
+}
+
+.footer-lable {
+    padding: 15px 0;
+    color: #beb6d2;
+}
+
+.footer-lable label {
+    font-weight: 600;
+}
+
+.footer-items ul li {
+    list-style: none;
+    margin: 5px 0;
+    height: 25px;
+}
+
+.footer-items ul li a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #3f3b4b;
+    font-weight: bolder;
+}
+
+.footer-items ul li a:hover {
+    color: #00249c;
+    border-bottom: 2px solid #00249c;
+    padding-bottom: 2px;
+    transition: all .2s ease;
+}
+
+.footer-top-right {
+    width: 30%;
+}
+
+.footer-top-right-content {
+    margin-left: 80px;
+    padding: 0 10px;
+}
+
+.footer-top-right-content img {
+    width: 120px;
+    height: 50px;
+}
+
+.footer-top-right-content p {
+    margin: 20px 0 0px;
+    color: #b3b3b3;
+    font-size: 14px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.footer-small {
+    color: #b3b3b3;
+    padding: 20px 0 10px;
+    font-size: 13px;
+}
+
+.footer-icon {
+    display: flex;
+}
+
+.footer-icon a {
+    padding-right: 15px;
+    color: #000;
+}
+
+.footer-icon a:hover {
+    color: #00249c;
+}
+
+
+
+
+
+
+.footer-bottom {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+    margin-top: 30px;
+}
+
+.footer-bottom-body {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
-.mat-toolbar-row {
-    justify-content: center;
+.footer-bottom-left {
+    width: 175px;
+}
+
+.footer-bottom-left p {
+    margin: 5px 0;
+    font-size: 10px;
+    color: #b3b3b3;
+}
+
+
+.footer-bottom-right select {
+    padding: 12px 10px;
+    margin-left: 20px;
+    width: 190px;
+    font-weight: 700;
+}
+
+.footer-bottom-right select:hover {
+    color: #00249c;
+    border-color: #00249c;
+
+}
+
+
+
+.inner {
+    background-color: #e7ffe9;
+    opacity: .5;
+    width: 350px;
+    height: 350px;
+    z-index: -3;
+    position: absolute;
+    border-radius: 50%;
+    top: 0px;
 }
