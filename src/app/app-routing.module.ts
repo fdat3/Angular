@@ -7,6 +7,7 @@ import { PostComponent } from './post/post.component';
 import { PostDetailComponent } from './post-detail/post-detail.component';
 import { TableComponent } from './table/table.component';
 import { SquadComponent } from './squad/squad.component';
+import { FormComponent } from './form/form.component';
 
 
 const routes: Routes = [
@@ -17,6 +18,7 @@ const routes: Routes = [
   { path: 'post-detail/:id', component: PostDetailComponent },
   { path: 'table', component: TableComponent },
   { path: 'squad', component: SquadComponent },
+  { path: 'form', component: FormComponent },
 ];
 
 @NgModule({

@@ -1,0 +1,8 @@
+<form [formGroup]="nameForm" (ngSubmit)="onSubmit()">
+    <label for="name">Name: </label>
+    <input id="name" type="text" [formControl]="name">
+
+    <button type="button" (click)="updateName()">Update Name</button>
+    <button type="submit" [disabled]="!nameForm.valid">Submit</button>
+</form>
+<p>Value: {{ name.value }}</p>

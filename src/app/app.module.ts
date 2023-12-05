@@ -28,6 +28,7 @@ import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatNativeDateModule } from '@angular/material/core';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { OperaComponent } from './opera/opera.component';
+import { HighlightDirective } from './highlight.directive';
 
 @NgModule({
   declarations: [
@@ -43,6 +44,7 @@ import { OperaComponent } from './opera/opera.component';
     TableComponent,
     SquadComponent,
     OperaComponent,
+    HighlightDirective,
   ],
   imports: [
     BrowserModule,
@@ -62,7 +64,7 @@ import { OperaComponent } from './opera/opera.component';
     MatInputModule,
     MatDatepickerModule,
     MatNativeDateModule,
-    CarouselModule
+    CarouselModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
